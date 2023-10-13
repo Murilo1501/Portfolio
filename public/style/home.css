@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: #1b1e23;
+}
+
+header{
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    padding: 20px 10%;
+    transition: 1s;
+}
+
+header.rolagem{
+    background-color: #303030;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+header.rolagem {
+    color: #0000;
+}
+
+.logo{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.logo span{
+    color: red;
+}
+
+
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 35px;
+    color: #ffff;
+    font-weight: 500;
+}
+
+
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    height: 1000px;
+    color: #fff;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.flex .aboutMe{
+    width: 700px;
+    margin-left: 10%;
+}
+
+.flex .aboutMe h3 {
+    color: red;
+    font-size: 30px;
+}
+
+.flex .aboutMe h1{
+    font-size:50px;
+}
+
+.flex .aboutMe p{
+    text-align: justify;
+}
+
+.flex .aboutMe .btns{
+    padding-top: 20px;
+}
+
+.flex .aboutMe .btns button{
+    padding: 10px;
+    border-radius: 10px;
+    width: 80px;
+}
+
+.flex .aboutMe .btns .gitHub{
+    background-color: red;
+    color: #ffff;
+    border: 2px solid black;
+}
+
+.flex .aboutMe .btns .Linkedin{
+    background-color:transparent ;
+    border: 2px solid red;
+    color: #fff;
+}
+
+.languages{
+    width: 500px;
+    height: 500px;
+}
+
+.imgs{
+    width: 70px;
+}
+
+#logoMysql{
+    position: absolute;
+    left: 80%;
+    top: 20%;
+}
+
+#logoPhp{
+    position: absolute;
+    left: 65%;
+    top: 40%;
+}
+
+#logoLaravel{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+}
+
+#logoGit{
+    position: absolute;
+    left: 80%;
+    top: 40%;
+}
+
+#logoJs{
+    position: absolute;
+    left: 65%;
+    top: 25%;
+}
+
+#logoWp{
+    position: absolute;
+    left: 55%;
+    top: 30%;
+}
+
+#logoHtml{
+    position: absolute;
+    left: 60%;
+    top: 55%;
+}
+
+#logoCss{
+    position: absolute;
+    left: 70%;
+    top: 60%;
+}
+
+hr{
+    border-color: red;
+    width: 200px;
+    margin-left: 45%;
+}
+
+ .title {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    margin-top: 100px;
+}
+
+.flex2{
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgAboutMe{
+    border-radius: 50%;
+    border: 2px solid red;
+    
+}
+
+.imgAboutMe img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 350px;
+    height: 400px;
+}
+
+.textAboutMe{
+    text-align: justify;
+    color: #ffff;
+    width: 700px;
+}
+
+.projects{
+    margin-left: 10%;
+}
+
+.projects .gridProjects{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    align-items: center;
+    gap: 2.5em;
+    color: #ffff;
+}
+
+
+
+.card{
+    width: 300px;
+    height: 200px;
+    box-shadow: 10px 10px 10px 10px rgba(255,0,0,0.3);
+    border-radius: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.info{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 35%;
+    top: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border-radius: 2rem;
+}
+
+
+
+
+
+#apae{
+    background-image: url(../assets/815784e0-dfdb-4e59-9995-404b39e6cd9a.jpg);
+}
+
+#series{
+    background-image: url(../assets/Fgpu17hWQAUmJ5n.jpeg);
+}
+
+#list{
+    background-image: url(../assets/to-do-7214069_960_720.png);
+}
+
+#apae2{
+    background-image: url(../assets/LOGO_APAE.jpg);
+}
+
+.slider{
+    color: #ffff;
+    display: flex;
+    margin: 10%;
+
+}
+
+.card-slider img{
+    width:100px;
+    height: 100px;
+   
+}
+
+.card-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+   padding: 1rem;
+   border-radius: 5px;
+   margin: 1rem;
+}
+
+.MenuOpen{
+    float: right;
+    background: none;
+    border: none;
+    color: #ffff;
+    display: none;
+}
+
+@media (max-width:1300px) {
+     img,.imgAboutMe{
+        display: none;
+    }
+
+    .flex2 .textAboutMe{
+        margin-left: 100px;
+    }
+
+    hr{
+        margin-left: 41%;
+    }
+
+   .projects .gridProjects{
+        grid-template-columns:repeat(2,1fr);
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:800px) {
+
+    .projects .gridProjects{
+       display: flex;
+       flex-direction: column;
+       margin-right: 100px;
+    }
+
+    .flex2 .textAboutMe{
+        margin-right: 100px;
+    }
+
+    .aboutMe p{
+        text-align: justify;
+        width: 500px;
+    }
+
+    hr{
+        margin-left: 37%;
+    }
+
+
+    header{
+        position: relative;
+        display: block;
+        flex-direction: column;
+        height: auto;
+    }
+
+    header .navbar{
+        display: none;
+        flex-direction: column;
+        height: 200px;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    .MenuOpen{
+        display: block;
+        font-size: 24px;
+    }
+
+    .flex1{
+        padding-bottom: 500px;
+    }
+
+  
+
+}
+
+@media (max-width: 500px) {
+    
+    .aboutMe p{
+        width: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
